@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+body{
+background-image: url('virselis.png');
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;
+width: auto;
+
+}
+
+.custom-navbar-orange {
+	background-color: #f9551e !important;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff !important;
+}
+
+
+.topp{
+	background-image: url('top.png');
+	width: 733px;
+	height: 200px !important;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+ul.col-md-12.top{
+background-image: url('topp.png');
+width: 736px;
+height: 64px;	
+} 
+ul.col-md-12.top li{
+display: inline-block;
+color: white;
+text-align: justify;
+vertical-align: middle;
+list-style-image: url('bullet1.png');
+z-index: -1	
+}
+ul.col-md-12.bot{
+background-image: url('apacia.png');	
+width: 740px;
+height: 36px;	
+}
+
+
+
+ ul.bot li{
+display: inline-block;
+list-style-type: none;
+color: white;
+text-align: center;
+vertical-align: middle;	
+}
+ul.left{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: -30px;
+	background-color: #728d9a;
+	border-radius: 10px;
+	z-index: 5;
+}
+
+
+ul.left li{
+	list-style-image: url('bullet.png');
+	color: white;
+	padding-top: 5px;
+}
+
+
+
+.navbar {
+	z-index: 1;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.navbar-default {
+	border: none !important;
+}
+
+.navbar {
+	border-radius: 10px !important;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+    font-style: Times New Roman;
+}
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+}
+
+.border-menu {
+
+	border-right: 1px dotted #fff;
+
+
+}
+
+.navbar.footer-nav {
+	margin-top: 40px;
+	min-height: 10px !important;
+}
+
+.navbar-nav.footer-nav > li > a {
+	padding-top:0px !important;
+	padding-bottom: 5px !important;
+}
+
+.navbar-collapse {padding: 10px;}
+
+div.copyright{
+background-image: url('copyright.png');
+width: 137px;
+height: 27px;	
+}
+.topic1{
+ color: orange;	
+}
+.topic2{
+ color: #728d9a;
+ padding-left: 10px ;	
+}
+.content{
+font-size: 10pt;
+font-style: Times New Roman;	
+}
+.nuoroda{
+font-size: 10pt;
+font-style: Times New Roman;
+color: orange; 	
+}
